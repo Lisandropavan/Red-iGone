@@ -24,10 +24,11 @@ Thee source code includes everything required, including
 for the web-app, API, iPhone and the iPad app.
 
 ### The components
-api - api.redigone.com
-ipad - iPad app
-iphone - iPhone app
-webapp - redigone.com
+
+* api -api.redigone.com
+* ipad - iPad app
+* iphone - iPhone app
+* webapp - redigone.com
 
 
 Enjoy!
@@ -35,6 +36,6 @@ Enjoy!
 Regards,
 The ex-Devify team.
 
-* Jonas Karlsson ([@jskn](https://twitter.com/#!/jskn),
+* Jonas Karlsson ([@jskn](https://twitter.com/#!/jskn))
 * Stefan Blomqwist ([@sblomqwist](https://twitter.com/#!/sblomqwist)) 
 * Viktor Petersson ([@vpetersson](https://twitter.com/#!/vpetersson))
