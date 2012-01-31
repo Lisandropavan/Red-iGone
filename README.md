@@ -10,6 +10,8 @@ When we shut down Devify, we decided to open source
 the entire thing, instead of having it collect dust in
 some folder.
 
+The entire project is released under GPLv3. 
+
 ## How to use and setup Red iGone
 In order to use the code, you need to setup a web-server
 with the API. The instructions on how to do that can be
@@ -25,15 +27,16 @@ for the web-app, API, iPhone and the iPad app.
 
 ### The components
 
-* api -api.redigone.com
-* ipad - iPad app
-* iphone - iPhone app
-* webapp - redigone.com
+* api - The API
+* ipad - The iPad app
+* iphone - The iPhone app
+* webapp - The webapp
 
 
 Enjoy!
 
 Regards,
+
 The ex-Devify team.
 
 * Jonas Karlsson ([@jskn](https://twitter.com/#!/jskn))
