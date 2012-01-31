@@ -13,7 +13,7 @@ some folder.
 ## How to use and setup Red iGone
 In order to use the code, you need to setup a web-server
 with the API. The instructions on how to do that can be
-found [here][https://github.com/teamdevify/Red-iGone/wiki/SettingUpRediGone].
+found [here](https://github.com/teamdevify/Red-iGone/wiki/SettingUpRediGone).
 
 The real magic behind the scene is performed by Gimp. 
 We've written a custom python-script that bridges the API
@@ -34,6 +34,7 @@ Enjoy!
 
 Regards,
 The ex-Devify team.
-* Jonas Karlsson ([@jskn][https://twitter.com/#!/jskn]),
-* Stefan Blomqwist ([@sblomqwist][https://twitter.com/#!/sblomqwist]) 
-* Viktor Petersson ([@vpetersson][https://twitter.com/#!/vpetersson])
+
+* Jonas Karlsson ([@jskn](https://twitter.com/#!/jskn),
+* Stefan Blomqwist ([@sblomqwist](https://twitter.com/#!/sblomqwist)) 
+* Viktor Petersson ([@vpetersson](https://twitter.com/#!/vpetersson))
