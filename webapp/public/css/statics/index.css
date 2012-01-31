@@ -1,0 +1,100 @@
+#index h1 {
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+}
+
+#index #title {
+	margin-bottom: 5px;
+}
+
+/*
+#index #beta_title {
+	margin-top: 0;
+	margin-bottom: 20px;	
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 1.3em;	
+	text-align: center;
+}
+*/
+
+#index #bolder {
+	font-weight: bolder;	
+}
+
+#index #main_content {
+	padding-bottom: 35px !important;
+}
+
+#index #get_started {
+	padding-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#index .content {
+	float: left;
+	padding-top: 20px;
+	width: 300px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#index .content_desc {
+	float: left;
+	padding-top: 5px;
+	width: 300px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;	
+}
+
+#index .step {
+	margin-top: 24px;
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1.8em;
+	letter-spacing: 0.05em;
+}
+
+#index .step_description {
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 1.3em;
+	letter-spacing: 0.07em;	
+}
+
+#index .border {
+	float: left;
+	width: 3px;
+	height: 320px;
+	background-image:url('/public/img/statics/vertical_bar_long.png');	
+}
+
+#index .filler {
+	float: left;
+	width: 3px;
+}
+
+#index .step_image {
+	background-image: url('/public/img/statics/steps.png');
+	width: 256px;
+	height: 256px;
+}
+
+#index .step1 {background-position:0px 0px;}
+#index .step2 {background-position:-256px 0px;}
+#index .step3 {background-position:-512px 0px;}
+
+#bottom #ios {
+  margin-top: 15px;
+}

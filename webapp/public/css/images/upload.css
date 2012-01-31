@@ -1,0 +1,72 @@
+#upload #step1 {
+	margin-top: 10px;	
+	color: #f26522;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+#upload #container {
+	width: 380px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#upload #upload_img {
+	margin-right: 0px;
+	padding-right: 0px;
+	height: 128px;
+	float: left;
+}
+
+#upload #flash_img {
+	margin-right: 0px;
+	padding-right: 0px;
+	height: 128px;
+	float: left;
+}
+
+#upload #upload_text {
+	position: relative;
+	height: 128px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+#upload #simpleupload {
+	width: 408px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	  
+	vertical-align: middle;
+	text-align: left;	
+	font-family: helvetica,arial,sans-serif;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+#upload #session_id {
+	visibility: hidden;
+}
+
+#upload .transparent {
+	width: 1px;
+	vertical-align: middle;
+}
+
+#upload_error {
+	display: none;	
+	padding-top: 10px;
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	text-align: center;	
+}

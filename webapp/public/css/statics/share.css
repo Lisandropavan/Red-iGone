@@ -1,0 +1,38 @@
+#share #share_content {
+	margin: 40px;
+	text-align: center;
+}
+
+#share h1 {
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#share .share_page {
+	background-image: url('/public/img/statics/share_icons.png');
+	width: 128px;
+	height: 128px;
+	margin: 15px;
+}
+
+#share .deli {background-position:0px 0px;}
+#share .delih {background-position:0px -128px;}
+#share .digg {background-position:-128px 0px;}
+#share .diggh {background-position:-128px -128px;}
+#share .facebook {background-position:-256px 0px;}
+#share .facebookh {background-position:-256px -128px;}
+#share .linkedin {background-position:-384px 0px;}
+#share .linkedinh {background-position:-384px -128px;}
+#share .myspace {background-position:-512px 0px;}
+#share .myspaceh {background-position:-512px -128px;}
+#share .reddit {background-position:-640px 0px;}
+#share .reddith {background-position:-640px -128px;}
+#share .stumble {background-position:-768px 0px;}
+#share .stumbleh {background-position:-768px -128px;}
+#share .twitter {background-position:-896px 0px;}
+#share .twitterh {background-position:-896px -128px;}
+#share .google {background-position:-1024px 0px;}
+#share .googleh {background-position:-1024px -128px;}

@@ -1,0 +1,419 @@
+#preview #step3 {
+	margin-top: 10px;	
+	color: #f26522;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+#preview #main_content {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#preview .desc {
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+#preview .action {
+	color: #42b3c2;
+	font-size: 1em;
+	letter-spacing: 0.1em;	
+	/*font-weight: lighter;*/
+}
+
+#preview .modify {
+	color: #42b3c2;
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	/*font-weight: lighter;*/
+}
+
+#preview #current {
+	vertical-align: middle;
+}
+
+#preview .bottom {
+	vertical-align: bottom;
+}
+
+.ui-effects-transfer {
+	border: 2px dotted gray;
+}
+
+#preview #outer {
+	width: 670px;
+/*	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;*/
+	margin: auto;
+	text-align: center;
+}
+
+#preview .polaroid_frame {
+	margin-left: auto;
+	margin-right: auto;
+	/*display: inline-block;*/
+	text-align: center;
+}
+
+#preview .space {
+	line-height: 0;
+	float: left;
+	width: 39px;
+	margin: 10px;
+	margin-top: 0px;
+	overflow: visible;
+}
+
+
+/*
+ * Polaroid frame
+ */
+
+#preview .top_left {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	float: left;
+	background: url(/public/img/images/polaroid_tl.png) no-repeat;
+	height: 19px;
+	width: 19px;
+	vertical-align: bottom;
+}
+
+#preview .top_center {
+	margin: 0;
+	padding: 0;
+	line-height: 0;	
+	float: left;	
+	background: url(/public/img/images/polaroid_top.png) repeat-x;
+	height: 19px;
+	vertical-align: bottom;	
+}
+
+#preview .top_right {
+	margin: 0;
+	padding:0;
+	line-height: 0;	
+	float: left;
+	background: url(/public/img/images/polaroid_tr.png) no-repeat;
+	width: 19px;	
+	height: 19px;
+	vertical-align: bottom;	
+}
+
+#preview .middle_left {
+	margin: 0;
+	line-height: 0px;
+	float: left;
+	background: url(/public/img/images/polaroid_left.png) repeat-y;
+	width: 19px;
+}
+
+#preview .middle_center {
+	margin: 0;
+	line-height: 0px;	
+	float: left;
+}
+
+#preview .middle_center_inside {
+	margin: 0;
+	padding: 0;
+	line-height: 0;	
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#preview .middle_right {
+	margin: 0;
+	line-height: 0;	
+	float: left;	
+	background: url(/public/img/images/polaroid_right.png) repeat-y;	
+	width: 19px;
+}
+
+
+#preview .bottom_left {
+	margin: -3px 0 0 0;
+	line-height: 0;	
+	float: left;
+	background: url(/public/img/images/polaroid_bl.png) no-repeat;
+	width: 19px;
+	height: 72px;
+}
+
+#preview .bottom_center {
+	margin: -3px 0 0 0;
+	padding: 0;
+	float: left;	
+	background: url(/public/img/images/polaroid_bottom.png) repeat-x;	
+	height: 72px;
+	color: #f26522;
+	font-size: 1.6em;
+	/*font-weight: lighter;*/
+	font-style: italic;
+}
+
+#preview .bottom_right {
+	margin: -3px 0 0 0;	
+	line-height: 0;	
+	float: left;	
+	background: url(/public/img/images/polaroid_br.png) no-repeat;
+	width: 19px;
+	height: 72px;
+}
+
+/*
+ *	Preview menu
+ */
+#preview .divider {
+	height: 35px;
+}
+
+#preview .menu_icon {
+	vertical-align: bottom;
+}
+
+#preview .menu_box #box_finetune {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;	
+}
+
+#preview .menu_box #icon_finetune {
+	width: 32px;
+	height: 32px;
+}
+
+#preview .menu_box #text_finetune {
+	line-height: 36px;
+}
+
+#preview .menu_box #box_done {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;	
+}
+
+#preview .menu_box #icon_done {
+	width: 31px;
+	height: 31px;
+}
+
+#preview .menu_box #text_done {
+	line-height: 36px;
+}
+
+#preview .menu_box #box_more {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 3px;*/
+	text-align: center;
+}
+
+#preview .menu_box #more {
+	width: 25px;
+	height: 25px;	
+}
+
+#preview .menu_box #text_more {
+	line-height: 28px;
+}
+
+#preview .menu_box #box_download {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;
+}
+
+#preview .menu_box #icon_download {
+	width: 27px;
+	height: 27px;	
+}
+
+#preview .menu_box #text_download {
+	line-height: 31px;
+}
+
+#preview .menu_box #box_less {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;
+}
+
+#preview .menu_box #less {
+	width: 27px;
+	height: 27px;	
+}
+
+#preview .menu_box #text_less {
+	line-height: 31px;
+}
+
+#preview .menu_box #box_email {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;
+}
+
+#preview .menu_box #icon_email {
+	width: 29px;
+	height: 29px;	
+}
+
+#preview .menu_box #text_email {
+	line-height: 31px;
+}
+
+#preview .menu_box #box_start_over {
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	position: relative;
+	/*bottom: 4px;*/
+	text-align: center;
+}
+
+#preview .menu_box #icon_start_over {
+	width: 29px;
+	height: 29px;	
+}
+
+#preview .menu_box #text_start_over {
+	line-height: 31px;
+}
+
+#preview #download {
+	text-decoration: none;
+	color: #42b3c2;	
+}
+
+#preview .menu_box {
+	height: 35px;
+}
+
+#preview .menu_header {
+	float: left;
+	vertical-align: bottom;
+
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1.9em;
+	letter-spacing: 0.1em;
+	text-align: left;	
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 0;
+
+}
+
+#preview .menu_header2 {
+	float: left;
+	vertical-align: bottom;
+
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1.9em;
+	letter-spacing: 0.1em;
+	text-align: left;	
+	text-decoration: none;
+	margin-bottom: 3px;	
+	margin-left: 0;
+}
+
+#preview .menu_item {
+	float: left;
+	
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 1.6em;
+
+	text-align: left;	
+	text-decoration: none;
+
+	margin-left: 0;
+}
+
+#preview .menu_item2 {
+	float: left;
+	
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 1.6em;
+
+	text-align: left;	
+	text-decoration: none;
+
+	margin-left: 0;
+}
+
+/*
+ * Thumb generation
+ */
+
+#preview #all_thumbs {
+	margin-top: 40px;
+}
+
+#preview .larger {
+	margin-top: 10px;	
+	color: #f26522;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+#preview .medium {
+	margin-top: 10px;	
+	color: #f26522;
+	font-size: 1em;
+	font-weight: bolder;
+}
+
+/*
+ *	Queue
+ */
+
+#preview #current_queue_id {
+	display: none;
+}
+
+#preview #threshold {
+	display: none;
+}
+
+#preview #loading {
+	display: none;
+}
+
+#preview .clearboth {
+	clear: both;
+	line-height: 5;
+	margin: 0;
+	padding: 0;
+}

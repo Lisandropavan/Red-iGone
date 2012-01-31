@@ -1,0 +1,26 @@
+#slider {
+  position:relative;
+  width:640px; /* Change this to your images width */
+  height:832px; /* Change this to your images height */
+  /*background:url(images/loading.gif) no-repeat 50% 50%;*/
+  max-width: 640px;
+}
+
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+}
+
+#slider a {
+  border:0;
+  display:block;
+}
+
+body {
+  background-image: url('RIG_iphone4-bg_prestep1.png');
+  /*background-color:#e7e7e7;*/
+  margin:0px;
+  padding:0px;
+}

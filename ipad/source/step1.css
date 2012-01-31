@@ -1,0 +1,26 @@
+#slider {
+  position:relative;
+  width:1024px; /* Change this to your images width */
+  height:704px; /* Change this to your images height */
+  /*background:url(images/loading.gif) no-repeat 50% 50%;*/
+  max-width: 1024px;
+}
+
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+}
+
+#slider a {
+  border:0;
+  display:block;
+}
+
+body {
+  background-image: url('RIG_ipad-step1-pre-bg.png');
+  /*background-color:#e7e7e7;*/
+  margin:0px;
+  padding:0px;
+}

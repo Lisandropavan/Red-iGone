@@ -1,0 +1,58 @@
+#simple_upload #step1 {
+	margin-top: 27px;	
+	color: #f26522;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+#simple_upload #container {
+	width: 490px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#simple_upload #upload_form {
+	margin-right: 0px;
+	padding-right: 0px;
+	height: 128px;
+	float: left;
+	text-align: left;
+}
+
+#simple_upload #upload_text {
+  width: 340px;
+	position: relative;
+	height: 128px;
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+	
+	padding-left: 20px;
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+#simple_upload #advancedupload {
+	width: 408px;
+	margin-left: auto;
+	margin-right: auto;
+	  
+	vertical-align: middle;
+	text-align: left;	
+	font-family: helvetica,arial,sans-serif;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+#simple_upload_error {
+	padding-top: 10px;
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	text-align: center;	
+}

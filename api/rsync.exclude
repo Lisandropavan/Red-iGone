@@ -1,0 +1,8 @@
+.git
+deploy.sh
+*~
+rsync.exclude
+private/img
+private/pgsql
+public/uploads
+.DS_Store

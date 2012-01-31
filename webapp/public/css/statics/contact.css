@@ -1,0 +1,29 @@
+#contact h1 {
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+}
+
+#contact h2 {
+	color: #f26522;
+	font-family: helvetica,arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	text-align: left;
+}
+
+#contact p {
+	margin-bottom: 25px;
+}
+
+#contact .title {
+	font-style: italic;
+}
+
+#contact #contact_content {
+	width: 720px;
+	margin: auto;
+	text-align: left;
+}

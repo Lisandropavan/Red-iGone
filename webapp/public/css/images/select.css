@@ -1,0 +1,194 @@
+#select #step2 {
+	margin-top: 10px;	
+	color: #f26522;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+
+#select #main_content {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#select #outer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#select #polaroid_frame {
+	float: left;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#select #container {
+	margin-top: 25px;
+	margin-left: 20px;
+	float: right;
+	width: 270px;
+	vertical-align: top;	
+}
+
+#select #all_selections {
+	text-align: left;
+}
+
+#select #other_options {
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 1.6em;
+	letter-spacing: 0.1em;
+	text-align: left;
+}
+
+#select #other_options a {
+	color: #42b3c2;
+	text-decoration: none;
+}
+
+#select .red_eye_selection {
+	color: #42b3c2;
+	font-family: helvetica,arial,sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 1.6em;
+	letter-spacing: 0.1em;
+	text-align: left;	
+	text-decoration: none;
+}
+
+#select .img_bottom {
+	vertical-align: bottom;
+	padding-bottom: 4px;
+}
+
+#select .text_left {
+	text-align: left;
+}
+
+/*
+ * Polaroid frame
+ */
+
+#select #top_left {
+	float: left;
+	background: url(/public/img/images/polaroid_tl.png) no-repeat;
+	height: 19px;
+	width: 19px;
+}
+
+#select #top_center {
+	float: left;	
+	background: url(/public/img/images/polaroid_top.png) repeat-x;
+	height: 19px;
+}
+
+#select #top_right {
+	float: left;	
+	background: url(/public/img/images/polaroid_tr.png) no-repeat;
+	width: 19px;	
+	height: 19px;
+}
+
+#select #middle_left {
+	float: left;
+	background: url(/public/img/images/polaroid_left.png) repeat-y;
+	width: 19px;
+}
+
+#select #middle_center {
+	float: left;
+}
+
+#select #middle_right {
+	float: left;	
+	background: url(/public/img/images/polaroid_right.png) repeat-y;	
+	width: 19px;
+}
+
+#select #bottom_left {
+	margin-top: -3px;
+	float: left;
+	background: url(/public/img/images/polaroid_bl.png) no-repeat;
+	width: 19px;
+	height: 72px;
+}
+
+#select #bottom_center {
+	margin-top: -3px;
+	float: left;	
+	background: url(/public/img/images/polaroid_bottom.png) repeat-x;	
+	height: 72px;
+	color: #f26522;
+	font-size: 1em;
+	/*font-weight: lighter;*/
+	font-style: italic;
+}
+
+#select #bottom_right {
+	margin-top: -3px;
+	float: left;	
+	background: url(/public/img/images/polaroid_br.png) no-repeat;	
+	width: 19px;
+	height: 72px;
+}
+
+/*
+ * imgAreaSelect default style
+ */
+
+.imgareaselect-border1 {
+	background: url(/public/img/images/border-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(/public/img/images/border-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(/public/img/images/border-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(/public/img/images/border-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-outer {
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-selection {  
+}
+
+#select hr {
+	color: #42b3c2;
+	background-color: #42b3c2;
+	height: 2px;
+	border: 0;
+	width: 96%;
+	margin-left: 0;
+}
+
+#select #dotted_border {
+	display: none;
+}

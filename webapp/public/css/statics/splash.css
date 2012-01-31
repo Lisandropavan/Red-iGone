@@ -1,0 +1,56 @@
+body {
+	background:#fff;
+	text-align:center;
+}
+
+#container {
+	width:701px;
+	margin:50px auto 0 auto;
+}
+#mainscreen {
+	background:url('/public/img/statics/sprite.png') no-repeat;
+	width:701px;
+	height:396px;
+	display:block;
+	margin-top:30px;
+	text-align:left;
+}
+
+#logo {
+	width:333px; height:85px;
+	display:block;
+	background:url('/public/img/statics/logo_redigone.png') no-repeat;
+	margin:0 auto;
+}
+
+h1, #menu a {text-indent:-9999px;}
+#menu {background:#fff; width:142px; height:142px; position:relative;top:198px;left:48px;}
+
+ul {margin:0;padding:0;}
+li {margin:0;padding:0;background:#fff; list-style-type:none;text-indent:-9999px;}
+a.iphone {
+	background:#fff url('/public/img/statics/sprite.png') -48px -198px;
+	width:148px;
+	height:42px;
+	display:block;
+	margin:0 0 8px 0;
+}
+a.ipad {
+	background:#fff url('/public/img/statics/sprite.png') -48px -249px;
+	width:148px;
+	height:41px;
+	display:block;
+	margin:0 0 8px 0;
+}
+
+a.web {
+	background:#fff url('/public/img/statics/sprite.png') -48px -299px;
+	width:148px;
+	height:41px;
+	display:block;
+}
+
+#footer {margin:20px 0;text-align:center;color:#3D3E3E;font:11px "Lucida Grande", sans-serif;clear:both;width:701px;}
+
+a, a:visited {color:#3D3E3E;text-decoration:none;}
+a:hover {text-decoration:underline;}
